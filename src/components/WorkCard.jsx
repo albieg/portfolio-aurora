@@ -22,3 +22,4 @@ export const WorkCard = ({image, title, linkTo }) => {
         </div>
     )
 }
+
