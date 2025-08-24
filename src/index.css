@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --background-color: #0d0614;
+  --accent-purple: #6c2dc7;
+  --accent-gray: #000000;
+}
+
+::selection {
+	background: #6c2dc7;
+}
+
+.gothic-regular {
+  font-family: "BIZ UDGothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.italiana-regular {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.icon:hover {
+  fill: #DA4567;
+}
+
+
+html {
+  background-color: #0d0614;
+}
