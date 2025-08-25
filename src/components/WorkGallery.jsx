@@ -11,7 +11,7 @@ export const WorkGallery = () => {
         initial={{ opacity: 0, y: 70 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: false, amount: 0.2 }} 
-        transition={{ duration: 0.8, ease: "easeOut" }}
+        transition={{ duration: 1, ease: "easeOut" }}
         >
         <div className="h-full bg-[var(--background-color)] flex flex-col md:flex-row justify-center items-center gap-12 lg:gap-18 pb-5">
             <WorkCard

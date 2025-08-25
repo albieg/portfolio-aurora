@@ -33,7 +33,7 @@ export const HomePage = () => {
 
         </div>
 
-        <div className="w-screen pt-20 pb-20 md:pb-52" id="workSection">
+        <div className="w-screen pt-16 pb-20 md:pb-52" id="workSection">
         <WorkGallery></WorkGallery>
         </div>
 
